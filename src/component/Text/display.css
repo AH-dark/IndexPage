@@ -1,0 +1,26 @@
+.text-title {
+    font-size: 6rem;
+}
+
+.text-root {
+    margin-top: 35vh;
+}
+
+@media screen and (max-width: 600px) {
+    .text-title {
+        font-size: 3rem !important;
+    }
+    .text-root {
+        margin-top: 36vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .text-title {
+        font-size: 2.5rem !important;
+    }
+    .text-root {
+        margin-top: 34vh;
+    }
+}
+
